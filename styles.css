@@ -202,3 +202,34 @@ header {
     border-radius: 8px;
     width: fit-content;
 }
+
+#iz {
+    max-width: 800px;
+    margin: 50px;
+    padding: 20px;
+    background-color: #1f2a38;
+    border-radius: 15px;
+    color: white;
+}
+
+#iz h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.noticia {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #2d3e50;
+    border-radius: 10px;
+}
+
+.noticia h3 {
+    margin: 0 0 10px;
+}
+
+.noticia a {
+    color: #00ffae;
+    text-decoration: none;
+    font-weight: bold;
+}
