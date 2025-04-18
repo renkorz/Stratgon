@@ -17,6 +17,9 @@ CLASS (utilice nombres generios y palabras clave de forma aleatoria para recorda
 LABEL= <label> se utilizo para la etiqueta de los campos de texto. Encontrado
 en la referencia w3schools.
 
+<ARTICLE> - Se ha usado para la estructura de los articulos. Encontrado en la referencia w3schools y videos
+de youtube.
+
 META VIEWPORT = <meta name="viewport" content="width=device-width, initial-scale=1.0"> s
 e utilizo para la visualización de la pagina en diferentes dispositivos. Encontrado en la
 referencia w3schools. https://www.w3schools.com/css/css_rwd_viewport.asp
@@ -84,3 +87,33 @@ https://www.w3schools.com/css/
 En CSS Flexbox puedes encontrar cómo usar display: flex, justify-content, y más
 
 https://css-tricks.com/
+
+Aqui le explico, porque y para que sirve el comando que utlice en CSS:
+max-width: Lo usé para que el contenido no se haga demasiado ancho en pantallas grandes, así se mantiene centrado y más ordenado visualmente.
+margin: Lo utilicé para separar elementos entre sí y también para centrar contenedores en la página.
+padding: Le agregué espacio interno a los elementos, para que el texto no quede pegado a los bordes.
+background-color: Lo usé para dar color de fondo a secciones específicas y así diferenciar visualmente las partes de la página.
+border-radius: Le puse bordes redondeados a cajas y botones para darles un estilo más moderno y amigable.
+color: Lo usé para definir el color del texto, principalmente blanco para que tenga buen contraste con el fondo oscuro.
+line-height: Aumenté el espacio entre líneas de texto para que sea más fácil de leer.
+text-align: Lo usé para alinear el texto al centro en títulos o formularios y mejorar la presentación.
+font-size: Cambié el tamaño de texto en títulos o botones para que sean más visibles y jerárquicos.
+display: flex: Usé Flexbox para ordenar elementos de forma más flexible y responsiva dentro de un contenedor.
+flex-direction: Lo usé cuando necesitaba que los elementos (como los del formulario) se organizaran en columna, uno debajo del otro.
+gap: Apliqué espacio entre elementos hijos de un contenedor para que no queden todos pegados.
+input, textarea, button: Les di estilo a los campos del formulario para que sean más cómodos y visuales para el usuario.
+cursor: pointer: Lo activé en botones para que el puntero cambie a una manito, indicando que se puede hacer clic.
+font-weight: Usé negrita en ciertos textos para resaltarlos, como en botones o títulos.
+border: Quité los bordes por defecto de los campos para un estilo más limpio.
+text-decoration: Lo usé para quitar el subrayado de los enlaces y que se vean más como botones o elementos integrados al diseño.
+
+HTML:
+<nav>: Usé esta etiqueta para crear el menú de navegación. Es una forma semántica de agrupar enlaces importantes.
+<main>: Agrupé el contenido principal de la página dentro de esta etiqueta para seguir buenas prácticas.
+<section>: En algunos casos la usé para dividir diferentes partes del contenido como noticias o juegos destacados.
+<article>: Lo apliqué para representar contenido independiente, como una noticia o descripción de un juego.
+<form>: La utilicé para agrupar los campos de los formularios de registro y contacto.
+<input> / <textarea>: Usé estas etiquetas para permitir que el usuario escriba información en los formularios.
+<button>: La usé para crear botones de acción, como enviar un formulario o volver al inicio.
+<a>: Utilicé esta etiqueta para crear hipervínculos, como volver al inicio o ir a otra página.
+<img>: La usé para insertar imágenes, como el logo o los juegos.
