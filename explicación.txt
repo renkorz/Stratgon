@@ -1,0 +1,86 @@
+En el siguiente trabajo (página web) que va a ser entregado y mencionado como el trabajo.
+Para el trabajo, he utilizado un grupo de códigos que no han sido vistos en clase, buscando cumplir
+con los estandares autoimpuestos para la conformidad propia con el trabajo a realizar. Dicho sea esto
+los códigos utilizados en el trabajo son los siguientes:
+
+(lista codigos CSS)
+El "." y el nombre de la clase son utilizados para identificar a la clase en el documento HTML.
+El "#" y el nombre de la clase son utilizados para identificar a la clase en el documento
+HTML.
+(lista codigos HTML)
+
+NAV = <nav> se utilizo para la barra de navegacion de todas las paginas. Encontrado en la referencia
+w3schools
+
+CLASS (utilice nombres generios y palabras clave de forma aleatoria para recordarlo).
+
+LABEL= <label> se utilizo para la etiqueta de los campos de texto. Encontrado
+en la referencia w3schools.
+
+META VIEWPORT = <meta name="viewport" content="width=device-width, initial-scale=1.0"> s
+e utilizo para la visualización de la pagina en diferentes dispositivos. Encontrado en la
+referencia w3schools. https://www.w3schools.com/css/css_rwd_viewport.asp
+
+
+
+REFERENCIAS Y UTILIZACIÓN DE MATERIALES.
+
+https://www.w3schools.com/html/
+https://www.w3schools.com/css/
+
+https://www.youtube.com/watch?v=wZniZEbPAzk - HolaMundo!
+Video de CSS. En el video esta marcado desde que minuto se hablan de ciertas
+cosas que utilice en este trabajo.
+4:03 Primeros pasos
+6:05 Carga de estilos CSS
+25:44 Colores, valores y convenciones
+32:00 Border
+34:41 Border en profundidad
+37:21 Unidades de medida
+44:19 Background
+56:11 Box model, margin, padding, overflow
+01:04:56 outline, text-align, text-decoration, text-shadow
+01:24:13 Display, max-width y position
+01:43:11 inline-block
+01:45:19 Centrar un elemento
+
+https://www.youtube.com/watch?v=ELSm-G201Ls - SoyDalto
+Video de HTML y CCS. Con el mismo fin del video anterior, como material de apoyo buscando
+en los momentos cruciales.
+
+
+--- HTML BÁSICO ---
+
+35:02 - Estructura de una etiqueta
+45:48 - Estructura de una página WEB
+51:58 - Párrafos y encabezados
+1:00:09 - Listas
+1:10:45 - Enlaces (Básico)
+1:26:09 - Imágenes y Rutas
+1:41:40 - Formularios
+
+--- CSS BÁSICO ---
+
+2:18:04 - Propiedades de texto y fuente
+2:44:56 - Tipografías externas
+2:55:25 - Modelo de caja (box model)
+3:07:04 - Relleno y Margen (margin y padding)
+3:37:57 - Bordes
+3:53:43 - Tamaño de caja (box sizing)
+4:02:09 - Colores
+4:25:16 - Unidades
+4:50:29 - Fondos, Gradientes y Sombras
+
+Espero que se entienda que el trabajo ha sido realizado con
+el fin de cumplir con los estandares autoimpuestos para la conformidad propia con el
+trabajo a realizar. Dicho esto, los códigos utilizados que no han sido vistos en clase, son
+netamente busqueda propia. Por lo tanto, no se ha copiado ni pegado nada de nadie. Solo
+he buscado en la red y he utilizado los conocimientos adquiridos en clase para
+realizarlo. Si no menciono o detallo mas comandos utilizados, es porque no les he encontrado
+una manera mas fácil de explicar que lo que he visto e indagado en foros de reddit o gihub.
+
+MAS LIBRERIAS UTILZIADAS:
+https://www.w3schools.com/css/
+En CSS Flexbox puedes encontrar cómo usar display: flex, justify-content, y más
+
+https://css-tricks.com/

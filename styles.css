@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#141e30, #243b55);
+    color: white;
+}
+/* nav = navigation */
+nav {
+    background-color: #2d3e50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-izquierda,
+.nav.derecha {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-busqueda {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icono-busqueda {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+header {
+    background-color: #1f2a38;
+    padding: 20px;
+}
+
+/* Los .(nombre de la clase) son para modificar las clases en CSS
+    de esta manera se modifican contenedores en especificos */
+.producto {
+    display: block;
+    background-color: #1f2a38;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-titulo h1 {
+    font-size: 2em;
+    margin: 0;
+    color: white;
+}
+
+.productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* DETALLE 1 JUEGO */
+.detalle-juego {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+}
+
+.juego-info {
+    background-color: #1f2a38;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    gap: 30px;
+    color: white;
+    max-width: 800px;
+    width: 100%;
+    }
+
+.juego-info img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.juego-info .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.juego-info .precio {
+    font-size: 1.5em;
+    color: #00ffae;
+}
+
+.juego-info button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #00ffae;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* REGISTRO */
+.registro {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #1f2a38;
+    color: white;
+    border-radius: 15px;
+}
+
+.registro h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.registro form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.registro input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.registro button {
+    background-color: #00ffae;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Registro aprobado */
+.registro-exitoso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+    color: white;
+}
+
+.mensaje {
+    background-color: #1f2a38;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.boton-volver {
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    background-color: #00ffae;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    width: fit-content;
+}
