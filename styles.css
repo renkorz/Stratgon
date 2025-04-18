@@ -3,7 +3,9 @@ body {
     background: linear-gradient(to right,#141e30, #243b55);
     color: white;
 }
-/* nav = navigation */
+/* Configuracion de la barra de navegacion principal de
+    la página. Color, tamaño, margen y que se mantenga siempre con el tamaño
+    que utilice el usuario. */
 nav {
     background-color: #2d3e50;
     padding: 10px 20px;
@@ -32,8 +34,11 @@ nav {
     height: 24px;
     cursor: pointer;
 }
+
+/* Configuracion de los elementos de la barra de navegacion principal 
+    Color y formato del texto ennegrecido. */
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
@@ -232,4 +237,51 @@ header {
     color: #00ffae;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* Para la seccion de quienes somos, y concretar la informacion dentro de un recuadro.*/
+.seccion-info {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #1f2a38;
+    border-radius: 15px;
+    color: white;
+    line-height: 1.6;
+}
+
+.seccion-info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.seccion-info strong {
+    color: #00ffae;
+}
+
+
+/* Mas de lo mismo que la seccion de quienes somos, para contacto. Destinado a soporte. */
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario-contacto button {
+    background-color: #00ffae;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
